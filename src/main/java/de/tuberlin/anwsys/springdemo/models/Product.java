@@ -6,6 +6,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * A simple Jpa Entity
+ * Do note, that the Wishlist Product relationship is not written bidirectional.
+ * Product does not have a reference to the Wishlists it is in.
+ *
+ */
 @Entity
 public class Product {
 
